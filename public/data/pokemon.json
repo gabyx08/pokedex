@@ -1,0 +1,82 @@
+[
+ 	{
+ 		"nombre": "pokemon",
+ 		"imagen": "../img/1.png"
+ 	},
+ 	{
+ 		"nombre": "pokemon",
+ 		"imagen": "../img/2.png"
+ 	},
+  {
+    "nombre": "pokemon",
+    "imagen": "../img/3.png"
+  },
+  {
+    "nombre": "pokemon",
+    "imagen": "../img/4.png"
+  },
+  {
+ 		"nombre": "pokemon",
+ 		"imagen": "../img/5.png"
+ 	},
+ 	{
+ 		"nombre": "pokemon",
+ 		"imagen": "../img/6.png"
+ 	},
+  {
+ 		"nombre": "pokemon",
+ 		"imagen": "../img/7.png"
+ 	},
+ 	{
+ 		"nombre": "pokemon",
+ 		"imagen": "img/8.png"
+ 	},
+  {
+ 		"nombre": "pokemon",
+ 		"imagen": "img/9.png"
+ 	},
+ 	{
+ 		"nombre": "pokemon",
+ 		"imagen": "img/10.png"
+ 	},
+  {
+ 		"nombre": "pokemon",
+ 		"imagen": "img/11.png"
+ 	},
+ 	{
+ 		"nombre": "pokemon",
+ 		"imagen": "img/12.png"
+ 	},
+  {
+ 		"nombre": "pokemon",
+ 		"imagen": "img/13.png"
+ 	},
+ 	{
+ 		"nombre": "pokemon",
+ 		"imagen": "img/14.png"
+ 	},
+  {
+ 		"nombre": "pokemon",
+ 		"imagen": "img/15.png"
+ 	},
+ 	{
+ 		"nombre": "pokemon",
+ 		"imagen": "img/16.png"
+ 	},
+  {
+ 		"nombre": "pokemon",
+ 		"imagen": "img/17.png"
+ 	},
+ 	{
+ 		"nombre": "pokemon",
+ 		"imagen": "img/18.png"
+ 	},
+  {
+ 		"nombre": "pokemon",
+ 		"imagen": "img/19.png"
+ 	},
+ 	{
+ 		"nombre": "pokemon",
+ 		"imagen": "img/20.png"
+ 	}
+ ]

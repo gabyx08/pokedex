@@ -7,15 +7,17 @@ var obtenerNombresPokemons = function(){
 		 function (response) {
 		 var pokemons = response.results;
 		 crearPokemons(pokemons);
+		 imagenesPoke();
 	});
 };
+
 function crearPokemons(pokemons) {
 	var $seccion = $("#pokemons");
 	pokemons.forEach(function (pokemon) {
 		var url= pokemon.url;
 		url= url.replace("pokemon","pokemon-species");
 		 var $divContenedor = $("<div/>",{"class":"col-sm-3 thumbnail pokemon", "data-url":url, "data-nombre":pokemon.name});
-		 var $imagen = $("<img/>",{"src":"https://dummyimage.com/150x150", "alt":"imagenPokemon"});
+		 var $imagen = $("<img/>",{"src":"https://dummyimage.com/150x150","class":"imagenPoke", "alt":"imagenPokemon"});
 		 var $div = $("<div />",{"class":"caption"});
 	   var $nombre = $('<p/>', {"class":"text-center text-uppercase"});
      $nombre.text(pokemon.name);
@@ -25,6 +27,16 @@ function crearPokemons(pokemons) {
      $seccion.append($divContenedor);
 	});
 }
+var imagenesPoke = function(){
+	$.getJSON("../data/pokemon.json",
+		 function (response) {
+			 var imag= $(".imagenPoke");
+		 		response.forEach(function(img,a){
+				imag[a].src= img.imagen;
+		 })
+});
+};
+
  var plantilla =   '<div class="modal-dialog" role="document">'+
 		 '<div class="modal-content">'+
 			 '<div class="modal-header">'+
@@ -44,7 +56,11 @@ function crearPokemons(pokemons) {
 var mostrarInfoPokemon = function(){
 	var url = $(this).data("url");
 	var name= $(this).data("nombre");
-console.log(name)
+	$("#myModal").html('<div class="spinner">'+
+  '<div class="bounce1"></div>'+
+  '<div class="bounce2"></div>'+
+  '<div class="bounce3"></div>'+
+'</div>');
 	$.getJSON(url, function (response) {
 			 var	descripcion={
 				 color:response.color.name,
@@ -64,7 +80,9 @@ var modal= function (descripcion,name){
 .replace("_grassland_",descripcion.habitat)
 .replace("_cuadruped_",descripcion.shape)
 .replace("_seed_",descripcion.genera)
-.replace("_nombre_", name));
+.replace("_nombre_", name)
+// .replace("_imagen_",imagen)
+);
 }
 
 $(document).ready(cargarPagina);
