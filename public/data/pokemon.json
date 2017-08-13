@@ -1,31 +1,31 @@
 [
  	{
  		"nombre": "pokemon",
- 		"imagen": "../img/1.png"
+ 		"imagen": "/img/1.png"
  	},
  	{
  		"nombre": "pokemon",
- 		"imagen": "../img/2.png"
+ 		"imagen": "/img/2.png"
  	},
   {
     "nombre": "pokemon",
-    "imagen": "../img/3.png"
+    "imagen": "/img/3.png"
   },
   {
     "nombre": "pokemon",
-    "imagen": "../img/4.png"
+    "imagen": "/img/4.png"
   },
   {
  		"nombre": "pokemon",
- 		"imagen": "../img/5.png"
+ 		"imagen": "/img/5.png"
  	},
  	{
  		"nombre": "pokemon",
- 		"imagen": "../img/6.png"
+ 		"imagen": "/img/6.png"
  	},
   {
  		"nombre": "pokemon",
- 		"imagen": "../img/7.png"
+ 		"imagen": "/img/7.png"
  	},
  	{
  		"nombre": "pokemon",
