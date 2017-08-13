@@ -43,7 +43,6 @@ var imagenesPoke = function(){
 				'<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>'+
 			 '</div>'+
 			 '<div class="modal-body text-center">'+
-				 '<img src="https://dummyimage.com/150x150" alt="">'+
 				 '<h3 class="text-uppercase">_nombre_</h3>'+
 				 '<p>COLOR: _green_</p>'+
 				 '<p>HABITAT: _grassland_</p>'+

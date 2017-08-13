@@ -1,3 +1,9 @@
+h1{
+  background: royalblue;
+  color: white;
+  padding: 2%;
+  margin-bottom: 3%;
+}
 .imagenPoke{
   max-width: 100px;
   max-height: 100px;
