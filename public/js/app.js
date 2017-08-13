@@ -3,7 +3,7 @@ var cargarPagina = function(){
 	$(document).on("click",".pokemon",mostrarInfoPokemon);
 }
 var obtenerNombresPokemons = function(){
-	$.getJSON("http://pokeapi.co/api/v2/pokemon/",
+	$.getJSON("https://pokeapi.co/api/v2/pokemon/",
 		 function (response) {
 		 var pokemons = response.results;
 		 crearPokemons(pokemons);
