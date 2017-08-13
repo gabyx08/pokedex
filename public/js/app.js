@@ -28,7 +28,7 @@ function crearPokemons(pokemons) {
 	});
 }
 var imagenesPoke = function(){
-	$.getJSON("../data/pokemon.json",
+	$.getJSON("../public/data/pokemon.json",
 		 function (response) {
 			 var imag= $(".imagenPoke");
 		 		response.forEach(function(img,a){
